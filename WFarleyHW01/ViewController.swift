@@ -4,19 +4,29 @@
 //
 //  Created by William Farley on 1/25/17.
 //  Copyright © 2017 William Farley. All rights reserved.
-
-//  Had a massive file failure and decided to just start over. Sorry if the revision history makes it look like I did this all around 3 PM on the 25th. I promise I did not. Tried to rename the old file and when I opened it again I got about 10 errors saying files weren't there. Tried changing the name back but couldn't fix it and just decided to start over. I think I have everything through 2.8 in here.
-
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
+    //MARK: Properties
+    
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var messageButton: UIButton!
-    var index = 0
+    @IBOutlet weak var awesomeImage: UIImageView!
+    @IBOutlet weak var soundSwitch: UISwitch!
+    
+    var awesomePlayer = AVAudioPlayer()
+    
+    var lastIndex = -1
+    var lastImage = -1
+    let numOfSounds = 7
+    var lastSound = -1
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +37,44 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func playSound(soundName: String) {
+        if let sound = NSDataAsset(name: soundName) {
+            do {
+                try awesomePlayer = AVAudioPlayer(data: sound.data)
+                awesomePlayer.play()
+            } catch {
+                print("ERROR: Data from \(soundName) could not be played as an audio file")
+            }
+        } else {
+            print("ERROR: Could not load data from file \(soundName)")
+        }
+        
+    }
+
+    func nonRepeatedRandom(last: inout Int, range: Int) -> Int {
+        var random: Int = Int(arc4random_uniform(UInt32(range)))
+        
+        while random == last {
+            random = Int(arc4random_uniform(UInt32(range)))
+        }
+        
+        last = random
+        
+        return random
+    }
+    
+    //MARK: Actions
+    
+    @IBAction func soundSwitchPressed(_ sender: UISwitch) {
+        
+        if soundSwitch.isOn == false {
+            if lastSound != -1 {
+                awesomePlayer.stop()
+            }
+        }
+    }
+    
+    
     @IBAction func showMessage(_ sender: UIButton) {
         
         let messages = ["You Are Fantastic!",
@@ -35,13 +83,32 @@ class ViewController: UIViewController {
                         "You Are Awesome!",
                         "When the Genius Bar needs help, they call you!",
                         "You Brighten My Day!",
-                        "I can't wait to use this app!"]
+                        "I can't wait to use this app!",
+                        "You Are Da Bomb"]
 
-        messageLabel.text = messages[index]
+        let images = ["image0",
+                      "image1",
+                      "image2",
+                      "image3",
+                      "image4",
+                      "image5",
+                      "image6",
+                      "image7",
+                      "image8"]
         
-        if index == (messages.count - 1)
-            {index = 0 }
-            else {index = index + 1} }
+        var random: Int
+        
+        random = nonRepeatedRandom(last: &lastIndex, range: messages.count)
+        messageLabel.text = messages[random]
+
+        random = nonRepeatedRandom(last: &lastImage, range: images.count)
+        awesomeImage.isHidden = false
+        awesomeImage.image = UIImage(named: images[random])
+        
+        if soundSwitch.isOn == true {
+            random = nonRepeatedRandom(last: &lastSound, range: numOfSounds)
+            playSound(soundName: "sound" + String(random)) }
     }
+}
 
 

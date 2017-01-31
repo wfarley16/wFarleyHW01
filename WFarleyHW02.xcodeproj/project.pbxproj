@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		98FD7E941E393CCC003D6DCD /* WFarleyHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFarleyHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FD7E941E393CCC003D6DCD /* WFarleyHW02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFarleyHW02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FD7E971E393CCC003D6DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98FD7E991E393CCC003D6DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98FD7E9C1E393CCC003D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98FD7E9E1E393CCC003D6DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FD7EA11E393CCC003D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FD7EA31E393CCC003D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98FD7EA81E393CCC003D6DCD /* WFarleyHW01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFarleyHW01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FD7EA81E393CCC003D6DCD /* WFarleyHW02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFarleyHW02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FD7EAC1E393CCC003D6DCD /* WFarleyHW01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFarleyHW01Tests.swift; sourceTree = "<group>"; };
 		98FD7EAE1E393CCC003D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		98FD7E951E393CCC003D6DCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98FD7E941E393CCC003D6DCD /* WFarleyHW01.app */,
-				98FD7EA81E393CCC003D6DCD /* WFarleyHW01Tests.xctest */,
+				98FD7E941E393CCC003D6DCD /* WFarleyHW02.app */,
+				98FD7EA81E393CCC003D6DCD /* WFarleyHW02Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98FD7E931E393CCC003D6DCD /* WFarleyHW01 */ = {
+		98FD7E931E393CCC003D6DCD /* WFarleyHW02 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98FD7EB11E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW01" */;
+			buildConfigurationList = 98FD7EB11E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW02" */;
 			buildPhases = (
 				98FD7E901E393CCC003D6DCD /* Sources */,
 				98FD7E911E393CCC003D6DCD /* Frameworks */,
@@ -111,14 +111,14 @@
 			);
 			dependencies = (
 			);
-			name = WFarleyHW01;
+			name = WFarleyHW02;
 			productName = WFarleyHW01;
-			productReference = 98FD7E941E393CCC003D6DCD /* WFarleyHW01.app */;
+			productReference = 98FD7E941E393CCC003D6DCD /* WFarleyHW02.app */;
 			productType = "com.apple.product-type.application";
 		};
-		98FD7EA71E393CCC003D6DCD /* WFarleyHW01Tests */ = {
+		98FD7EA71E393CCC003D6DCD /* WFarleyHW02Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98FD7EB41E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW01Tests" */;
+			buildConfigurationList = 98FD7EB41E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW02Tests" */;
 			buildPhases = (
 				98FD7EA41E393CCC003D6DCD /* Sources */,
 				98FD7EA51E393CCC003D6DCD /* Frameworks */,
@@ -129,9 +129,9 @@
 			dependencies = (
 				98FD7EAA1E393CCC003D6DCD /* PBXTargetDependency */,
 			);
-			name = WFarleyHW01Tests;
+			name = WFarleyHW02Tests;
 			productName = WFarleyHW01Tests;
-			productReference = 98FD7EA81E393CCC003D6DCD /* WFarleyHW01Tests.xctest */;
+			productReference = 98FD7EA81E393CCC003D6DCD /* WFarleyHW02Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					98FD7E931E393CCC003D6DCD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XG2JBVVXS4;
 						ProvisioningStyle = Automatic;
 					};
 					98FD7EA71E393CCC003D6DCD = {
@@ -155,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 98FD7E8F1E393CCC003D6DCD /* Build configuration list for PBXProject "WFarleyHW01" */;
+			buildConfigurationList = 98FD7E8F1E393CCC003D6DCD /* Build configuration list for PBXProject "WFarleyHW02" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98FD7E931E393CCC003D6DCD /* WFarleyHW01 */,
-				98FD7EA71E393CCC003D6DCD /* WFarleyHW01Tests */,
+				98FD7E931E393CCC003D6DCD /* WFarleyHW02 */,
+				98FD7EA71E393CCC003D6DCD /* WFarleyHW02Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,7 +218,7 @@
 /* Begin PBXTargetDependency section */
 		98FD7EAA1E393CCC003D6DCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98FD7E931E393CCC003D6DCD /* WFarleyHW01 */;
+			target = 98FD7E931E393CCC003D6DCD /* WFarleyHW02 */;
 			targetProxy = 98FD7EA91E393CCC003D6DCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -339,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XG2JBVVXS4;
 				INFOPLIST_FILE = WFarleyHW01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IntroSwift.WFarleyHW01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XG2JBVVXS4;
 				INFOPLIST_FILE = WFarleyHW01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IntroSwift.WFarleyHW01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IntroSwift.WFarleyHW01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFarleyHW01.app/WFarleyHW01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFarleyHW02.app/WFarleyHW02";
 			};
 			name = Debug;
 		};
@@ -383,14 +388,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IntroSwift.WFarleyHW01Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFarleyHW01.app/WFarleyHW01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFarleyHW02.app/WFarleyHW02";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98FD7E8F1E393CCC003D6DCD /* Build configuration list for PBXProject "WFarleyHW01" */ = {
+		98FD7E8F1E393CCC003D6DCD /* Build configuration list for PBXProject "WFarleyHW02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98FD7EAF1E393CCC003D6DCD /* Debug */,
@@ -399,21 +404,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98FD7EB11E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW01" */ = {
+		98FD7EB11E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98FD7EB21E393CCC003D6DCD /* Debug */,
 				98FD7EB31E393CCC003D6DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		98FD7EB41E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW01Tests" */ = {
+		98FD7EB41E393CCC003D6DCD /* Build configuration list for PBXNativeTarget "WFarleyHW02Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98FD7EB51E393CCC003D6DCD /* Debug */,
 				98FD7EB61E393CCC003D6DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

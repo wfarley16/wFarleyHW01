@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "98FD7E931E393CCC003D6DCD"
-               BuildableName = "WFarleyHW01.app"
-               BlueprintName = "WFarleyHW01"
-               ReferencedContainer = "container:WFarleyHW01.xcodeproj">
+               BuildableName = "WFarleyHW02.app"
+               BlueprintName = "WFarleyHW02"
+               ReferencedContainer = "container:WFarleyHW02.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "98FD7EA71E393CCC003D6DCD"
-               BuildableName = "WFarleyHW01Tests.xctest"
-               BlueprintName = "WFarleyHW01Tests"
-               ReferencedContainer = "container:WFarleyHW01.xcodeproj">
+               BuildableName = "WFarleyHW02Tests.xctest"
+               BlueprintName = "WFarleyHW02Tests"
+               ReferencedContainer = "container:WFarleyHW02.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98FD7E931E393CCC003D6DCD"
-            BuildableName = "WFarleyHW01.app"
-            BlueprintName = "WFarleyHW01"
-            ReferencedContainer = "container:WFarleyHW01.xcodeproj">
+            BuildableName = "WFarleyHW02.app"
+            BlueprintName = "WFarleyHW02"
+            ReferencedContainer = "container:WFarleyHW02.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98FD7E931E393CCC003D6DCD"
-            BuildableName = "WFarleyHW01.app"
-            BlueprintName = "WFarleyHW01"
-            ReferencedContainer = "container:WFarleyHW01.xcodeproj">
+            BuildableName = "WFarleyHW02.app"
+            BlueprintName = "WFarleyHW02"
+            ReferencedContainer = "container:WFarleyHW02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98FD7E931E393CCC003D6DCD"
-            BuildableName = "WFarleyHW01.app"
-            BlueprintName = "WFarleyHW01"
-            ReferencedContainer = "container:WFarleyHW01.xcodeproj">
+            BuildableName = "WFarleyHW02.app"
+            BlueprintName = "WFarleyHW02"
+            ReferencedContainer = "container:WFarleyHW02.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
